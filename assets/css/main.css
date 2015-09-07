@@ -5795,40 +5795,146 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.header {
-  padding: 30px 0;
-  background: white;
-  height: 100vh;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
+.ribbon {
+  background-color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-transform: rotate(-32deg);
+  -moz-transform: rotate(-32deg);
+  -ms-transform: rotate(-32deg);
+  -o-transform: rotate(-32deg);
+  transform: rotate(-32deg);
+  width: 400px;
+  left: -40px;
+  top: 40px;
+  position: absolute;
+  box-shadow: 0px 7px 17px 1px black; }
 
-.coollogo {
-  min-height: 70px;
-  max-width: 90%;
-  padding-bottom: 17px;
-  box-shadow: 10px 10px 10px; }
+.ribbon a {
+  border: 1px solid black;
+  color: black;
+  display: block;
+  font: bold 81.25% "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 1px 0;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 5px #444; }
 
-.nav li {
-  width: 100%;
-  text-align: right; }
+.ad-logo-img {
+  margin: 20px;
+  margin-bottom: 77px; }
 
-.specialemail li {
-  margin: 20px 0; }
+.ad-lines-1 {
+  height: 1px;
+  border: 0;
+  border-top: 4px solid black;
+  margin: 3px 0;
+  padding: 0;
+  width: 55vw;
+  margin-left: auto;
+  margin-right: 0;
+  box-shadow: 1px 1px 1px 1px black;
+  -webkit-animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-animation-duration: 6s;
+  -moz-animation-duration: 6s;
+  animation-duration: 6s; }
 
-.dropdown-toggle {
-  background: #B2B081;
-  margin: 7px 0; }
+@-webkit-keyframes fadeIn {
+  0% {
+    width: 0%; }
+  40% {
+    width: 77%; }
+  90% {
+    width: 10%; }
+  100% {
+    width: 0%; } }
+@-moz-keyframes fadeIn {
+  0% {
+    width: 0%; }
+  40% {
+    width: 77%; }
+  90% {
+    width: 10%; }
+  100% {
+    width: 0%; } }
+@keyframes fadeIn {
+  0% {
+    width: 0%; }
+  40% {
+    width: 77%; }
+  90% {
+    width: 10%; }
+  100% {
+    width: 0%; } }
+.ad-lines-2 {
+  height: 1px;
+  border: 0;
+  border-top: 3px solid black;
+  margin: 0px 0;
+  width: 77vw;
+  margin-left: auto;
+  margin-right: 0;
+  box-shadow: 1px 1px 1px 1px black;
+  -webkit-animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-animation-duration: 7s;
+  -moz-animation-duration: 7s;
+  animation-duration: 7s; }
 
-.responsive-logo {
-  max-width: 50px;
-  padding: 2px;
-  margin-left: 17px; }
+.ad-lines-3 {
+  height: 1px;
+  border: 0;
+  border-top: 2px solid black;
+  margin: 3px;
+  padding: 0;
+  width: 66vw;
+  margin-left: auto;
+  margin-right: 0;
+  box-shadow: 1px 1px 1px 1px black;
+  -webkit-animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+  animation-duration: 8s; }
 
-.resp-header {
-  background: #EBEBEB;
-  position: relative; }
+.ad-lines-4 {
+  height: 1px;
+  border: 0;
+  border-top: 2px solid black;
+  margin: 3px 0;
+  padding: 0;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: 0;
+  box-shadow: 1px 1px 1px 1px black;
+  -webkit-animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-animation-duration: 9s;
+  -moz-animation-duration: 9s;
+  animation-duration: 9s; }
+
+.ad-lines-5 {
+  height: 1px;
+  border: 0;
+  border-top: 2px solid black;
+  margin: 3px 0;
+  padding: 0;
+  width: 37vw;
+  margin-left: auto;
+  margin-right: 0;
+  box-shadow: 1px 1px 1px 1px black;
+  -webkit-animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  animation: fadeIn 10s infinite cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-animation-duration: 10s;
+  -moz-animation-duration: 10s;
+  animation-duration: 10s; }
 
 .navbar-ad {
   background: white; }
@@ -5840,8 +5946,9 @@ button.close {
   padding-right: 15px; }
 
 .home-sections {
-  background: #EBEBEB;
-  margin-top: 20px; }
+  width: 100%;
+  background: white;
+  margin-top: 47px; }
 
 .c-content {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.35); }
