@@ -4504,13 +4504,25 @@ a.thumbnail.active {
   box-shadow: 1px 1px 1px 1px black; }
 
 .navbar-ad {
-  background: white; }
-
-.navbar-brand img {
-  color: black; }
+  box-shadow: 0 0 10px 3px black;
+  height: 20px !important; }
 
 .navbar-right {
-  padding-right: 15px; }
+  float: right !important; }
+
+.navbar-right a {
+  margin-left: 27px;
+  font-size: 40px; }
+
+.navbar-text {
+  margin: 0; }
+
+.navbar-brand {
+  padding-left: 6px;
+  padding-top: 6px; }
+
+.post {
+  padding-bottom: 50px; }
 
 .home-sections {
   width: 100%;
