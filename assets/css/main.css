@@ -4503,23 +4503,27 @@ a.thumbnail.active {
   margin-bottom: 47px;
   box-shadow: 1px 1px 1px 1px black; }
 
-.navbar-ad {
-  box-shadow: 0 0 10px 3px black;
-  height: 20px !important; }
+.navbar {
+  min-height: 25px !important;
+  height: 25px !important; }
+
+.navbar-nav > li > a {
+  padding-top: 1px !important;
+  padding-bottom: 1px !important; }
 
 .navbar-right {
   float: right !important; }
 
 .navbar-right a {
   margin-left: 27px;
-  font-size: 40px; }
+  font-size: 20px; }
 
 .navbar-text {
   margin: 0; }
 
 .navbar-brand {
-  padding-left: 6px;
-  padding-top: 6px; }
+  padding-left: 2px;
+  padding-top: 2px; }
 
 .post {
   padding-bottom: 50px; }
