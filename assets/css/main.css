@@ -4381,7 +4381,7 @@ a.thumbnail.active {
   40% {
     width: 77%; }
   90% {
-    width: 10%; }
+    width: 7%; }
   100% {
     width: 0%; } }
 @-moz-keyframes fadeIn {
@@ -4390,7 +4390,7 @@ a.thumbnail.active {
   40% {
     width: 77%; }
   90% {
-    width: 10%; }
+    width: 7%; }
   100% {
     width: 0%; } }
 @keyframes fadeIn {
@@ -4399,7 +4399,7 @@ a.thumbnail.active {
   40% {
     width: 77%; }
   90% {
-    width: 10%; }
+    width: 7%; }
   100% {
     width: 0%; } }
 .ad-lines-2 {
