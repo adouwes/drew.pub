@@ -4528,6 +4528,11 @@ a.thumbnail.active {
 .post {
   padding-bottom: 50px; }
 
+.spacer {
+  margin: 0;
+  padding: 0;
+  height: 420px; }
+
 .home-sections {
   width: 100%;
   background: white;
